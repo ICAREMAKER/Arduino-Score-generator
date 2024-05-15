@@ -1,50 +1,15 @@
-# Arduino score generator 
+<h3 align="center">A passionate frontend developer ICARE</h3>
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> </p>
 
 
+<div align="center">
+  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
 
-## Preview
-
-
-## Setup code of the example sketch
-
-``111-11-111``
-
-
-## Usage
-
-1. Define your accessory in a .c file to enjoy the  convenient "Macro" style declaration. You can also define your accessory in a .ino file using C++ code.
-	```C
-		homekit_accessory_t *accessories[] = ...
-		homekit_server_config_t config = {
-			.accessories = accessories,
-			.password = "111-11-111",
-			//.on_event = on_homekit_event, //optional
-			//.setupId = "ABCD" //optional
-		};
-	```
-2. In your sketch
-	```C
-		#include <arduino_homekit_server.h>;
-		
-		//access the config defined in C code
-		extern "C" homekit_server_config_t config; 
-		
-		void setup() {
-			WiFi.begin(ssid, password);
-			arduino_homekit_setup(&config);
-		}
-		
-		void loop() {
-			arduino_homekit_loop();
-		}
-	```
-
-
-
-
-
-
-
-
-
-
+###
