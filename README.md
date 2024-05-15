@@ -4,8 +4,6 @@
 
 ## Preview
 
-![Preview](https://raw.github.com/Mixiaoxiao/Arduino-HomeKit-ESP8266/master/extras/preview.jpg) 
-
 
 ## Setup code of the example sketch
 
