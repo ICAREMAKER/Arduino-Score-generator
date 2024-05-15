@@ -38,7 +38,6 @@
 			arduino_homekit_loop();
 		}
 	```
-Done.
 
 
 
