@@ -1,4 +1,4 @@
-# SCORE GENERATOR
+# Générateur de score
 
 ### 1-PREVIEW
 ![400px-led_matrix00](https://github.com/ICAREMAKER/arduino-Score-generator/assets/107696317/0a8eda71-cd04-4aeb-acae-16910b9f7482)
@@ -7,7 +7,7 @@
 ![schema](https://github.com/ICAREMAKER/arduino-Score-generator/assets/107696317/d0eff3cf-0f77-42f9-a0b9-bc7e6856204c)
 
 ### 2-CODE
-You need import librairie: LedControl.h
+Vous devez installer la librairie: LedControl.h
 ```C
 #include "LedControl.h"
 LedControl lc=LedControl(13,12,11,1);  // Pins: DIN,CLK,CS, # of Display connected
