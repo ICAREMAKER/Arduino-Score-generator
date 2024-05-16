@@ -3,6 +3,7 @@
 ### 1-PREVIEW
 
 ### 2-SCHEMA
+![schema](https://github.com/ICAREMAKER/arduino-Score-generator/assets/107696317/d0eff3cf-0f77-42f9-a0b9-bc7e6856204c)
 
 ### 2-CODE
 You need import librairie: LedControl.h
