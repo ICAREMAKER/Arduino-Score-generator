@@ -6,7 +6,7 @@
 ### 2-SCHEMA
 ![schema](https://github.com/ICAREMAKER/arduino-Score-generator/assets/107696317/d0eff3cf-0f77-42f9-a0b9-bc7e6856204c)
 
-### 2-CODE
+### 3-CODE
 Vous devez installer la librairie: LedControl.h
 ```C
 #include "LedControl.h"
