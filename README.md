@@ -10,7 +10,7 @@
 Vous devez installer la librairie: LedControl.h
 ```C
 #include "LedControl.h"
-LedControl lc=LedControl(13,12,11,1);  // Pins: DIN,CLK,CS, # of Display connected
+LedControl lc=LedControl(13,12,11,1);  // Pins: DIN,CLK,CS, nombre d'afficheurs
 ```
 ![331127688-3c6cceb5-04ce-42fc-87c7-59c88b767277](https://github.com/ICAREMAKER/arduino-Score-generator/assets/107696317/c4b00203-6f6d-42ab-ac15-7237d3ce7e77)
 
