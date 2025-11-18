@@ -4,8 +4,7 @@
 ![400px-led_matrix00](https://github.com/ICAREMAKER/arduino-Score-generator/assets/107696317/0a8eda71-cd04-4aeb-acae-16910b9f7482)
 
 ### 2-SCHEMA
-![scoreSchema](https://github.com/ICAREMAKER/Arduino-Score-generator/assets/107696317/179a8b67-4eda-449f-bc9c-cf33e4d7b55f)
-
+<img width="561" height="367" alt="ScoreLight" src="https://github.com/user-attachments/assets/d4ed063b-1b67-4592-955c-0457f830a4a6" />
 
 ### 3-CODE
 Vous devez installer la librairie: LedControl.h
@@ -14,6 +13,7 @@ Vous devez installer la librairie: LedControl.h
 LedControl lc=LedControl(13,12,11,1);  // Pins: DIN,CLK,CS, nombre d'afficheurs
 ```
 ![331127688-3c6cceb5-04ce-42fc-87c7-59c88b767277](https://github.com/ICAREMAKER/arduino-Score-generator/assets/107696317/c4b00203-6f6d-42ab-ac15-7237d3ce7e77)
+
 
 ```C
 void setup() {
