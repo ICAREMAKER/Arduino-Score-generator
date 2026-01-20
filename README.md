@@ -81,3 +81,51 @@ void ZERO()
   }
 }
 ```
+
+### 4-EXTRA: Le compte à rebours
+  ```C
+void loop() {
+  
+  // Lire l'etat du bouton poussoir
+  buttonState = digitalRead(buttonPin);
+
+  // Selon l'etat du bouton, j'active qqchose
+    if ((buttonState == LOW) and (verrou == LOW)){
+    verrou = HIGH;
+    } 
+  
+  if (verrou == HIGH){
+ NEUF();
+score = 9;
+delay(delayTime);
+HUIT();
+score = 8;
+delay(delayTime);
+SEPT();
+score = 7;
+delay(delayTime);
+SIX();
+score = 6;
+delay(delayTime);
+CINQ();
+score = 5;
+delay(delayTime);
+QUATRE();
+score = 4;
+delay(delayTime);
+TROIS();
+score = 3;
+delay(delayTime);
+DEUX();
+score = 2;
+delay(delayTime);
+UN();
+score = 1;
+delay(delayTime);
+ZERO();
+score = 0;
+verrou = LOW;
+delay(delayTime);
+}
+}
+```
